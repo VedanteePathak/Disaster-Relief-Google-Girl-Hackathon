@@ -130,5 +130,6 @@ Overall, this integrated system enhances disaster management and relief operatio
 ## How to run?
 
 - `google-earth-engine-satellite.js` pulls the satellite imagery from Google Earth Engine and should be run first.
-- Building data shapefiles (grading maps) can be downloaded manually from the <a href="http://emergency.copernicus.eu/mapping/list-of-components/EMSR058">Copernicus Emergency Management Service website</a>.
-- `Data_Preprocessing.ipynb` is a precursor to two modeling notebooks. 'Social_Media_Data_Integration.py' file is for gathering the social media data and then integrating them with the satellite data. The latter two can be run independently of one another.
+- Building data shapefiles (grading maps) has been web scraped using Scrapy and Beautiful Soup from <a href="http://emergency.copernicus.eu/mapping/list-of-components/EMSR058">Copernicus Emergency Management Service website</a>. You can find the complete dataset <a href="http://emergency.copernicus.eu/mapping/list-of-components/EMSR058">here</a>.
+- `Data_Preprocessing.ipynb` is a precursor to two modeling notebooks.
+- `Social_Media_Data_Integration.py` file is for gathering the social media data and then integrating them with the satellite data. The latter two can be run independently of one another.
