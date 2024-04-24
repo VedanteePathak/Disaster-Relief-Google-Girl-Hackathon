@@ -127,7 +127,7 @@ Overall, this integrated system enhances disaster management and relief operatio
 **Libraries**: Keras + TensorFlow, numpy, pandas, sklearn, rasterio, geopandas, shapely, opencv, matplotlib, seaborn  
 **Methods**: Deep learning, classification (supervised learning), GAN Architecute, BConvLSTM, SegNet Model   
 
-Replication notes:
+## How to run?
 
 - `google-earth-engine-satellite.js` pulls the satellite imagery from Google Earth Engine and should be run first.
 - Building data shapefiles (grading maps) can be downloaded manually from the <a href="http://emergency.copernicus.eu/mapping/list-of-components/EMSR058">Copernicus Emergency Management Service website</a>.
